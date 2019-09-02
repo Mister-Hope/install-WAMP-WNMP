@@ -80,7 +80,7 @@ sc query | find "MySQL" && %mynet% stop mysql || echo MySQL is not Running
 
 echo Uninstalling MySQL Service...
 
-U:\MySQL\bin\mysqld.exe uninstall
+sc delete mysql
 
 echo.
 echo 服务已移除，按任意键退出。

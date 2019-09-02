@@ -89,7 +89,7 @@ U:\Apache\bin\httpd.exe -k uninstall
 
 echo Uninstalling MySQL Service...
 
-U:\MySQL\bin\mysqld.exe uninstall
+sc delete mysql
 
 echo.
 echo 服务已移除，按任意键退出。

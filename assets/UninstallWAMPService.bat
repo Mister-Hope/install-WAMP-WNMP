@@ -135,7 +135,7 @@ echo.
 echo Uninstalling MySQL Service...
 echo.
 
-U:\MySQL\bin\mysqld.exe uninstall
+sc delete mysql
 
 echo.
 echo Removing files...
