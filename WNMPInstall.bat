@@ -17,6 +17,7 @@
 ::fBE1pAF6MU+EWGzeyEc+PidVXxeHKHiGFr0MxfHa6+eOrAMeW+w5GA==
 ::fBE1pAF6MU+EWGzeyEc+PidVXxeHKHiGErAP/NvKw6SXql19
 ::fBE1pAF6MU+EWGzeyEc+PidVXxeHKHiGMZsx2N7+/fmOrUM0WuQwGA==
+::fBE1pAF6MU+EWGzeyEc+PidVXxeHKHiGNKASwOH/6++JgUITR+0zfcHewrHu
 ::YAwzoRdxOk+EWAjk
 ::fBw5plQjdDqDJFyK4n4xOwhRWBe+OmqsD7YT5qby7OXn
 ::YAwzuBVtJxjWCl3EqQJgSA==
@@ -141,6 +142,7 @@ if "%cd%" EQU "%~d0\" (
   del %cd%config.inc.php
   del %cd%index.php
   del %cd%testSQL.php
+  del %cd%RunHiddenConsole.exe
   del %cd%WNMPVersionInfo
 ) else (
   :: 当前不在盘符根目录下
@@ -160,6 +162,7 @@ if "%cd%" EQU "%~d0\" (
   del %cd%\config.inc.php
   del %cd%\index.php
   del %cd%\testSQL.php
+  del %cd%\RunHiddenConsole.exe
   del %cd%\WNMPVersionInfo
 )
 
@@ -339,6 +342,8 @@ if exist %nginx% (
     if errorlevel 2 goto notInstallNginx
     if errorlevel 1 goto installNginxWarning
   )
+) else (
+  goto installNginx
 )
 
 :installNginxWarning
@@ -489,6 +494,8 @@ if exist %mysql% (
     if errorlevel 2 goto notInstallMySQL
     if errorlevel 1 goto installMySQL
   )
+) else (
+  goto installMySQL
 )
 
 :MySQLWarning
@@ -867,6 +874,20 @@ if not exist %webfolder%\index.php (
 )
 
 echo.
+echo 启动PHP...74%%
+echo.
+
+:: Starting PHP FastCGI...
+RunHiddenConsole %php%/php-cgi.exe -b 127.0.0.1:9000 -c %php%/php.ini
+
+echo.
+echo 启动Nginx...78%%
+echo.
+
+:: Starting nginx...
+RunHiddenConsole %nginx%/nginx.exe -p %nginx%
+
+echo.
 echo 安装MySQL服务...82%%
 echo.
 
@@ -1047,6 +1068,7 @@ if "%cd%" EQU "%~d0\" (
   del %cd%config.inc.php
   del %cd%index.php
   del %cd%testSQL.php
+  del %cd%RunHiddenConsole.exe
   del %cd%WNMPVersionInfo
 ) else (
   :: 当前不在盘符根目录下
@@ -1066,6 +1088,7 @@ if "%cd%" EQU "%~d0\" (
   del %cd%\config.inc.php
   del %cd%\index.php
   del %cd%\testSQL.php
+  del %cd%\RunHiddenConsole.exe
   del %cd%\WNMPVersionInfo
 )
 

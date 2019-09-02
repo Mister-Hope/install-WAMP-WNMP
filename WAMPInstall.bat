@@ -343,6 +343,8 @@ if exist %apache% (
     echo.
     echo 由于没有检测到有效的Apache服务，将强制覆盖安装Apache。
   )
+) else (
+  goto installApache
 )
 
 :installApacheWarning
