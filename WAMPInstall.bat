@@ -29,12 +29,12 @@
 ::dAsiuh18IRvcCxnZtBJQ
 ::cRYluBh/LU+EWAnk
 ::YxY4rhs+aU+IeA==
-::cxY6rQJ7JhzQF1fEqQJnZks0
-::ZQ05rAF9IBncCkqN+0xwdVsDAlTi
-::ZQ05rAF9IAHYFVzEqQIRBSvTossH/og+3lWVHCZ+IQMPYagfTc8tNqfUyrHu
-::eg0/rx1wNQPfEVWB+kM9LVsJDCWvDOxUyTDeC2wjD2NzbMjTvWr8ne8=
-::fBEirQZwNQPfEVWB+kM9LVsJDIBawO5i7jPqOG0xHW5aUcj3q2rcpQY4EjBW02fnIiU=
-::cRolqwZ3JBvQF1fEqQIROBpXRAHCbiXuSOZFqKO738K34hpTB6xnOMSb9629EcxTvwuzO8R7ljEaiMMcIQJ5eh+iYE9g5zcM5iQC2QgZceyB
+::cxY6rQJ7JhzQF1fEqQJnZko0
+::ZQ05rAF9IBncCkqN+0xwdVsDAlXi
+::ZQ05rAF9IAHYFVzEqQIHCTZky+pNualZgm38YRw1aiRuKo74VvsSasHz1aSLQA==
+::eg0/rx1wNQPfEVWB+kM9LVsJDDOjEVs96HqZKgt+IQMPYah9
+::fBEirQZwNQPfEVWB+kM9LVsJDGQ=
+::cRolqwZ3JBvQF1fEqQIROBpXRAHCbiXuSOZFqKO738K34hpTB6xmOMSb9629EcxTvwuzO8R7ljEaiMMcIQJ5eh+iYE9g5zcM5iQC2QgZceyB
 ::dhA7uBVwLU+EWHGL5EdwGw9BSA2NXA==
 ::YQ03rBFzNR3SWATE2mceHXs=
 ::dhAmsQZ3MwfNWATE2VB+ABRESWQ=
@@ -52,7 +52,7 @@
 
 echo ============================================================================================================
 echo =====      此工具由Mr.Hope制作。                                                                     =======
-echo =====      即将安装Apache 2.4.39、PHP 7.3.8、MySQL5.7.26、phpMyAdmin4.9.0环境到你的电脑。            =======
+echo =====      即将安装Apache 2.4.39、PHP 7.3.9、MySQL5.7.26、phpMyAdmin4.9.0环境到你的电脑。            =======
 echo.=====                                                                                                =======
 echo =====      在运行工具之前请确认您已经创建盘符 U 的硬盘，硬盘空间应不少于3G，推荐5G以上空间。         =======
 echo.=====                                                                                                =======

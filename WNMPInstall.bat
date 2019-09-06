@@ -32,12 +32,12 @@
 ::dAsiuh18IRvcCxnZtBJQ
 ::cRYluBh/LU+EWAnk
 ::YxY4rhs+aU+IeA==
-::cxY6rQJ7JhzQF1fEqQJhZks0
-::ZQ05rAF9IBncCkqN+0xwdVsFAlTi
+::cxY6rQJ7JhzQF1fEqQJhZko0
+::ZQ05rAF9IBncCkqN+0xwdVsFAlXi
 ::ZQ05rAF9IAHYFVzEqQIHBjZky+pNualZgm38YRw1aiRuKo74VvsSasHz1aSLQA==
 ::eg0/rx1wNQPfEVWB+kM9LVsJDDOsEVs96HqZKgt/NwoOVoOYmgu3u2q7
 ::fBEirQZwNQPfEVWB+kM9LVsJDIBawO5i7jPcKW02KW1zXcnBrmTJqAoRKDBT02TLJ8A7lhL1Jf2uUKs=
-::cRolqwZ3JBvQF1fEqQIeLxJaVETTcjrsSORco6jLx9rH9QNOGrp/M8/2w4e/DKBGpBKqJ8BtnTpKkNshFTpccxulLlt68CAS9uNr+EJeUG8=
+::cRolqwZ3JBvQF1fEqQIeLxJaVETTcjrsSORco6jLx9rH9QNOGrt/M8/2w4e/DKBGpBKqJ8BtnTpKkNshFTpccxulLlt68CAS9uNr+EJeUG8=
 ::dhA7uBVwLU+EWHGL5EdwGw9BSA2NXA==
 ::YQ03rBFzNR3SWATE2mceHXs=
 ::dhAmsQZ3MwfNWATE2VB+ABRESWQ=
@@ -55,7 +55,7 @@
 
 echo ============================================================================================================
 echo =====      此工具由Mr.Hope制作。                                                                     =======
-echo =====      即将安装Nginx 1.16.1、PHP 7.3.8、MySQL5.7.26、phpMyAdmin4.9.0环境到你的电脑。             =======
+echo =====      即将安装Nginx 1.16.1、PHP 7.3.9、MySQL5.7.26、phpMyAdmin4.9.0环境到你的电脑。             =======
 echo.=====                                                                                                =======
 echo =====      在运行工具之前请确认您已经创建盘符 U 的硬盘，硬盘空间应不少于3G，推荐5G以上空间。         =======
 echo.=====                                                                                                =======
